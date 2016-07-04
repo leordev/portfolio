@@ -1,0 +1,261 @@
+<html>
+  <head>
+    <title>leordev portfolio page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,italic' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/276ef0f706.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+    <style>
+      body {
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        margin: 0;
+      }
+
+      h1, h2, h3 {
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 26px;
+        font-weight: 400;
+      }
+
+      a {
+        color: #666;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #0067f1;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      ul li {
+        display: inline;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        min-height: 50px;
+        padding: 10px;
+        border-bottom: 1px solid #666;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        background-color: #fff;
+        font-size:16px;
+      }
+
+      nav h1 {
+        font-family: "Courier New", monospace;
+        font-weight: 700;
+        font-size: 30px;
+        display: block;
+        padding-left: 30px;
+        margin-top: 10px;
+      }
+
+      nav li a {
+        padding: 22px;
+      }
+
+      nav li a:hover {
+        background-color: #fcfcfc;
+        border-radius: 3px;
+      }
+
+      hr {
+        border: 1px solid #efefef;
+        border-bottom: none;
+      }
+
+      .text-primary {
+        color: #0067f1;
+      }
+
+      .text-secondary {
+        color: #666;
+      }
+
+      #me {
+        padding: 350px 50px 50px;
+        background: url('https://s3.amazonaws.com/leordev/cover.jpg') no-repeat center center fixed;
+        background-size: cover;
+      }
+
+      #me p {
+        opacity: 1;
+        color: #fff;
+        text-align: justify;
+        font-size: 24px;
+        font-weight: 300;
+        background-color: #000;
+      }
+
+      #contact {
+        text-align: center;
+      }
+
+      #contact li {
+        padding: 20px;
+      }
+
+      .experience-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin: 30px;
+      }
+
+      #experience img {
+        padding:10px;
+      }
+
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .gallery img {
+        cursor: pointer;
+      }
+
+      #experience-description {
+        margin-left:15px;
+      }
+
+      .experience-footer {
+        font-size: 16px;
+        text-align: center;
+        color: #0067f1;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1><span class="text-primary">LEO</span>R<span class="text-secondary">DEV</span></h1>
+      <ul>
+        <li><a href="#me">me</a></li>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="me">
+      <p>
+        Hello, I'm Leo! I have a passion to learn any new technology related to software engineering,
+        seriously, <em>ANYTHING</em>! I code since I was 13, now I'm a 26 years old father of a
+        boy and happily married to my wife, living in Fort Lauderdale, Florida. My dream is that,
+        one day, I will help a lot of people around the world with my coding skills.
+      </p>
+    </section>
+
+    <section id="experience">
+      <div class="experience-header">
+        <h2>experience</h2>
+        <small id="experience-description">
+          click on the below images to check what I've been done
+        </small>
+      </div>
+      <div class="gallery">
+        <img src="https://s3.amazonaws.com/leordev/java.png" alt="Java" id="java-img"/>
+        <img src="https://s3.amazonaws.com/leordev/clojure.png" alt="Clojure" id="clojure-img"/>
+        <img src="https://s3.amazonaws.com/leordev/angularjs.png" alt="AngularJS" id="angularjs-img"/>
+        <img src="https://s3.amazonaws.com/leordev/reactjs.png" alt="ReactJS" id="reactjs-img"/>
+        <img src="https://s3.amazonaws.com/leordev/html5-css3-javascript.png" alt="HTML 5, CSS3 and Javascript" id="html-img" />
+        <img src="https://s3.amazonaws.com/leordev/databases.png" alt="Databases" id="databases-img"/>
+        <img src="https://s3.amazonaws.com/leordev/freeswitch.png" alt="FreeSWITCH" id="freeswitch-img"/>
+        <img src="https://s3.amazonaws.com/leordev/nodejs.png" alt="NodeJS" id="nodejs-img"/>
+        <img src="https://s3.amazonaws.com/leordev/ionic.png" alt="Ionic" id="ionic-img"/>
+        <img src="https://s3.amazonaws.com/leordev/salesforce.png" alt="Salesforce" id="salesforce-img"/>
+        <img src="https://s3.amazonaws.com/leordev/sap.png" alt="SAP" id="sap-img"/>
+        <img src="https://s3.amazonaws.com/leordev/php.png" alt="PHP" id="php-img"/>
+      </div>
+      <p class="experience-footer">
+        Besides the technologies, I do my best to be aligned with the project
+        requirements, developing under software agile methodologies and building good
+        documentations using standards patterns like UML.
+      </p>
+    </section>
+
+    <section id="contact">
+      <hr/>
+      <p>You can always contact me on the below options:</p>
+      <ul>
+        <li><a href="mailto:leordev@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a></li>
+        <li><a href="https://github.com/leordev" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+        <li><a href="https://linkedin.com/leonardolr" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+        <li><a href="https://twitter.com/leordev" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+      </ul>
+    </section>
+    <script>
+      $(document).ready(function(){
+        $("#sap-img").click(function(){
+          $("#experience-description").html("I've worked with SAP ABAP, Workflow, BW and FIORI for 7 years+");
+        });
+        $("#databases-img").click(function(){
+          $("#experience-description").html("I've been using MySQL, Postgres and SQL Server databases " +
+              "since I started to code");
+        });
+        $("#php-img").click(function(){
+          $("#experience-description").html("PHP is where I found my passion to code when I was thirteen");
+        });
+        $("#salesforce-img").click(function(){
+          $("#experience-description").html("I've developed two apps and published on SalesForce AppExchange" +
+              " - most of them has heavy javascript, Visual Force and Apex working together");
+        });
+        $("#freeswitch-img").click(function(){
+          $("#experience-description").html("I've learned and developed pretty amazing stuff in FreeSWITCH" +
+              " VOIP system, with LUA script to do smart caller robots with Speech to Text recognition. " +
+              " Today the application is in production making more than a thousand calls per day!");
+        });
+        $("#nodejs-img").click(function(){
+          $("#experience-description").html("I had created a small application which backend was nodejs. " +
+              "Unfortunately it's not live anymore, but it was running pretty well supporting requests " +
+              " from Android and iOS apps.");
+        });
+        $("#java-img").click(function(){
+          $("#experience-description").html("In most part of my enterprise applications the backend is" +
+              " JAVA. I've been used to develop applications with Java EE standards, Spring libraries, " +
+              " microservices in Dropwizard, Hibernate and JPA for ORM and sometimes JDBI.");
+        });
+        $("#html-img").click(function(){
+          $("#experience-description").html("This is the base tools of the frontend layer that " +
+              "I handle every single day of my life: HTML 5, CSS3 and Javascript");
+        });
+        $("#angularjs-img").click(function(){
+          $("#experience-description").html("I use the powerful Angular JS for some single page applications " +
+              "that I've built.");
+        });
+        $("#reactjs-img").click(function(){
+          $("#experience-description").html("I love React and all the useful integrations attached to it: Redux," +
+              " react-router, etc. It has improved so much my productivity, organization and code reusability" +
+              " in the frontend layer. I try to use React on every possible project.");
+        });
+        $("#clojure-img").click(function(){
+          $("#experience-description").html("I gave a chance to functional programming and I'm very happy with" +
+              " the ongoing results. Today I have one Clojure application in production which is very" +
+              " fast, reliable and the code is very small - it means less bugs and issues.");
+        });
+        $("#ionic-img").click(function(){
+          $("#experience-description").html("I used Ionic to build hybrid apps in two projects. " +
+              "One of them was published to Play Store and AppStore, it's pretty cool, simple and powerful.");
+        });
+      });
+    </script>
+  </body>
+</html>
