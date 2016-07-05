@@ -1,149 +1,12 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>LEORDEV portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,italic' rel='stylesheet' type='text/css' />
     <script src="https://use.fontawesome.com/276ef0f706.js"></script>
     <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-    <style>
-      body {
-        font-family: 'Open Sans', Arial, sans-serif;
-        font-size: 20px;
-        font-weight: 300;
-        margin: 0;
-      }
-
-      h1, h2, h3 {
-        margin: 0;
-      }
-
-      h2 {
-        font-size: 26px;
-        font-weight: 400;
-      }
-
-      a {
-        color: #666;
-        text-decoration: none;
-      }
-
-      a:hover {
-        color: #0067f1;
-      }
-
-      ul {
-        list-style: none;
-      }
-
-      ul li {
-        display: inline;
-      }
-
-      img {
-        max-width: 100%;
-      }
-
-      nav {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        min-height: 50px;
-        padding: 10px;
-        border-bottom: 1px solid #666;
-        position: fixed;
-        width: 100%;
-        z-index: 100;
-        background-color: #fff;
-        font-size:16px;
-      }
-
-      nav h1 {
-        font-family: "Courier New", monospace;
-        font-weight: 700;
-        font-size: 30px;
-        display: block;
-        padding-left: 30px;
-        margin-top: 10px;
-      }
-
-      nav li a {
-        padding: 22px;
-      }
-
-      nav li a:hover {
-        background-color: #fcfcfc;
-        border-radius: 3px;
-      }
-
-      hr {
-        border: 1px solid #efefef;
-        border-bottom: none;
-      }
-
-      .text-primary {
-        color: #0067f1;
-      }
-
-      .text-secondary {
-        color: #666;
-      }
-
-      #me {
-        padding: 350px 50px 50px;
-        background: url('https://s3.amazonaws.com/leordev/cover.jpg') no-repeat center center fixed;
-        background-size: cover;
-      }
-
-      #me p {
-        opacity: 1;
-        color: #fff;
-        text-align: justify;
-        font-size: 24px;
-        font-weight: 300;
-        background-color: #000;
-      }
-
-      #contact {
-        text-align: center;
-      }
-
-      #contact li {
-        padding: 20px;
-      }
-
-      .experience-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        margin: 30px;
-      }
-
-      #experience img {
-        padding:10px;
-      }
-
-      .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-      }
-
-      .gallery img {
-        cursor: pointer;
-      }
-
-      #experience-description {
-        margin-left:15px;
-      }
-
-      .experience-footer {
-        font-size: 16px;
-        text-align: center;
-        color: #0067f1;
-        margin: 10px;
-      }
-    </style>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <nav>
@@ -157,8 +20,8 @@
 
     <section id="me">
       <p>
-        Hello, I'm Leo! I have a passion to learn any new technology related to software engineering,
-        seriously, <em>ANYTHING</em>! I code since I was 13, now I'm a 26 years old father of a
+        Hello, I'm Leo! I have a huge passion to learn any new technology related to software engineering,
+        seriously, <em>ANYTHING</em>! I code since I was 13, now I'm 26, father of a
         boy and happily married to my wife, living in Fort Lauderdale, Florida. My dream is that,
         one day, I will help a lot of people around the world with my coding skills.
       </p>
@@ -172,18 +35,18 @@
         </small>
       </div>
       <div class="gallery">
-        <img src="https://s3.amazonaws.com/leordev/java.png" alt="Java" id="java-img"/>
-        <img src="https://s3.amazonaws.com/leordev/clojure.png" alt="Clojure" id="clojure-img"/>
-        <img src="https://s3.amazonaws.com/leordev/angularjs.png" alt="AngularJS" id="angularjs-img"/>
-        <img src="https://s3.amazonaws.com/leordev/reactjs.png" alt="ReactJS" id="reactjs-img"/>
-        <img src="https://s3.amazonaws.com/leordev/html5-css3-javascript.png" alt="HTML 5, CSS3 and Javascript" id="html-img" />
-        <img src="https://s3.amazonaws.com/leordev/databases.png" alt="Databases" id="databases-img"/>
-        <img src="https://s3.amazonaws.com/leordev/freeswitch.png" alt="FreeSWITCH" id="freeswitch-img"/>
-        <img src="https://s3.amazonaws.com/leordev/nodejs.png" alt="NodeJS" id="nodejs-img"/>
-        <img src="https://s3.amazonaws.com/leordev/ionic.png" alt="Ionic" id="ionic-img"/>
-        <img src="https://s3.amazonaws.com/leordev/salesforce.png" alt="Salesforce" id="salesforce-img"/>
-        <img src="https://s3.amazonaws.com/leordev/sap.png" alt="SAP" id="sap-img"/>
-        <img src="https://s3.amazonaws.com/leordev/php.png" alt="PHP" id="php-img"/>
+        <img src="images/java.png" alt="Java" id="java-img"/>
+        <img src="images/clojure.png" alt="Clojure" id="clojure-img"/>
+        <img src="images/angularjs.png" alt="AngularJS" id="angularjs-img"/>
+        <img src="images/reactjs.png" alt="ReactJS" id="reactjs-img"/>
+        <img src="images/html5-css3-javascript.png" alt="HTML 5, CSS3 and Javascript" id="html-img" />
+        <img src="images/databases.png" alt="Databases" id="databases-img"/>
+        <img src="images/freeswitch.png" alt="FreeSWITCH" id="freeswitch-img"/>
+        <img src="images/nodejs.png" alt="NodeJS" id="nodejs-img"/>
+        <img src="images/ionic.png" alt="Ionic" id="ionic-img"/>
+        <img src="images/salesforce.png" alt="Salesforce" id="salesforce-img"/>
+        <img src="images/sap.png" alt="SAP" id="sap-img"/>
+        <img src="images/php.png" alt="PHP" id="php-img"/>
       </div>
       <p class="experience-footer">
         Besides the technologies, I do my best to be aligned with the project
@@ -205,23 +68,27 @@
     <script>
       $(document).ready(function(){
         $("#sap-img").click(function(){
-          $("#experience-description").html("I've worked with SAP ABAP, Workflow, BW and FIORI for 7 years+");
+          $("#experience-description").html("I've worked with SAP ABAP, Workflow, BW and FIORI for 7 years+. " +
+              "Though nowadays I've chosen to dive into the new technologies on the web, mobile, IOT etc., I" +
+              " still pick some SAP projects to some clients in my extra time.");
         });
         $("#databases-img").click(function(){
           $("#experience-description").html("I've been using MySQL, Postgres and SQL Server databases " +
-              "since I started to code");
+              "since I started to code.");
         });
         $("#php-img").click(function(){
-          $("#experience-description").html("PHP is where I found my passion to code when I was thirteen");
+          $("#experience-description").html("PHP is where I found my passion and started to code when " +
+              "I was thirteen!");
         });
         $("#salesforce-img").click(function(){
-          $("#experience-description").html("I've developed two apps and published on SalesForce AppExchange" +
-              " - most of them has heavy javascript, Visual Force and Apex working together");
+          $("#experience-description").html("I've developed two managed packages that's running in production " +
+              "customers already, also it's on the way to be published on SalesForce AppExchange! " +
+              "The both has heavy javascript, Visual Force and Apex nifty glued together, working nicely.");
         });
         $("#freeswitch-img").click(function(){
           $("#experience-description").html("I've learned and developed pretty amazing stuff in FreeSWITCH" +
-              " VOIP system, with LUA script to do smart caller robots with Speech to Text recognition. " +
-              " Today the application is in production making more than a thousand calls per day!");
+              " VOIP system: used LUA script to do smart caller robots with Speech to Text recognition. " +
+              " Today the application is in production doing thousands calls per day!");
         });
         $("#nodejs-img").click(function(){
           $("#experience-description").html("I had created a small application which backend was nodejs. " +
@@ -235,7 +102,7 @@
         });
         $("#html-img").click(function(){
           $("#experience-description").html("This is the base tools of the frontend layer that " +
-              "I handle every single day of my life: HTML 5, CSS3 and Javascript");
+              "I handle every single day of my life: HTML 5, CSS3 and Javascript.");
         });
         $("#angularjs-img").click(function(){
           $("#experience-description").html("I use the powerful Angular JS for some single page applications " +

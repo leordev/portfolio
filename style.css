@@ -1,0 +1,137 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0067f1;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 50px;
+    padding: 10px;
+    border-bottom: 1px solid #666;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    font-size:16px;
+}
+
+nav h1 {
+    font-family: "Courier New", monospace;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+nav li a {
+    padding: 22px;
+}
+
+nav li a:hover {
+    background-color: #fcfcfc;
+    border-radius: 3px;
+}
+
+hr {
+    border: 1px solid #efefef;
+    border-bottom: none;
+}
+
+.text-primary {
+    color: #0067f1;
+}
+
+.text-secondary {
+    color: #666;
+}
+
+#me {
+    padding: 350px 50px 50px;
+    background: url('images/cover.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#me p {
+    opacity: 1;
+    color: #fff;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 300;
+    background-color: #000;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact li {
+    padding: 20px;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 30px;
+}
+
+#experience img {
+    padding:10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery img {
+    cursor: pointer;
+}
+
+#experience-description {
+    margin-left:15px;
+}
+
+.experience-footer {
+    font-size: 16px;
+    text-align: center;
+    color: #0067f1;
+    margin: 10px;
+}
