@@ -104,6 +104,14 @@ hr {
     padding: 20px;
 }
 
+#experience {
+    position: relative;
+    top: -105px;
+    display: block;
+    height: 0;
+    width: 0;
+}
+
 .experience-header {
     display: flex;
     justify-content: space-between;
@@ -111,7 +119,7 @@ hr {
     margin: 30px;
 }
 
-#experience img {
+.gallery img {
     padding:10px;
 }
 
