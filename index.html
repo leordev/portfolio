@@ -27,7 +27,8 @@
       </p>
     </section>
 
-    <section id="experience">
+    <section>
+      <a id="experience"></a>
       <div class="experience-header">
         <h2>experience</h2>
         <small id="experience-description">
@@ -61,7 +62,7 @@
       <ul>
         <li><a href="mailto:leordev@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a></li>
         <li><a href="https://github.com/leordev" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
-        <li><a href="https://br.linkedin.com/in/leordev" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/leordev" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
         <li><a href="https://twitter.com/leordev" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
       </ul>
     </section>
@@ -70,7 +71,7 @@
         $("#sap-img").click(function(){
           $("#experience-description").html("I've worked with SAP ABAP, Workflow, BW and FIORI for 7 years+. " +
               "Though nowadays I've chosen to dive into the new technologies on the web, mobile, IOT etc., I" +
-              " still pick some SAP projects to some clients in my extra time.");
+              " still work on some SAP projects for a few clients in my extra time.");
         });
         $("#databases-img").click(function(){
           $("#experience-description").html("I've been using MySQL, Postgres and SQL Server databases " +
@@ -122,6 +123,8 @@
           $("#experience-description").html("I used Ionic to build hybrid apps in two projects. " +
               "One of them was published to Play Store and AppStore, it's pretty cool, simple and powerful.");
         });
+
+        $(".gallery img").click(function(){ location.href = "#experience"; });
       });
     </script>
   </body>
